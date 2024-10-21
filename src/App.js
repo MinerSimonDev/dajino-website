@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar.tsx';
+import Dajino from './components/dajino.tsx';
+import Gigs from './components/gigs.tsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Dajino />
+      <Gigs
+        path1='/images/dajino1.jpg'
+        path2='/images/dajino2.jpg'
+        path3='/images/dajino3.jpg'
+      />
     </div>
   );
 }

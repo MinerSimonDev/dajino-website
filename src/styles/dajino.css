@@ -1,0 +1,23 @@
+.dajino {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.dajino div {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.h1 {
+    font-size: 120px;
+    color: #E80000;
+}
+
+.h3 {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 21.25%;
+}

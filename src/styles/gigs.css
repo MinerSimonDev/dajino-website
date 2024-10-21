@@ -1,0 +1,18 @@
+/* * {
+    border: 1px solid red;
+} */
+
+.gigs {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+img {
+    object-fit: cover;
+    width: 385px;
+    height: 385px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
