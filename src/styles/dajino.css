@@ -19,5 +19,42 @@
 .h3 {
     font-size: 24px;
     text-align: left;
-    margin-left: 21.25%;
+    margin-left: 27%;
+}
+
+.h3 a {
+    color: rgb(195, 54, 54);
+    line-height: 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+@media only screen and (max-width: 900px) {
+    .dajino {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    .dajino div {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        font-weight: bold;
+    }
+    
+    .h1 {
+        font-size: 90px;
+        color: #fe3c39;
+    }
+    
+    .h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0;
+    }
 }
