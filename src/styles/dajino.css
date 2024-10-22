@@ -35,7 +35,10 @@
         margin-top: 200px;
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 96vw;
     }
     
     .dajino div {

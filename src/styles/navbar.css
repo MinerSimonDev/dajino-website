@@ -8,10 +8,10 @@
     padding: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
-    position: fixed;  /* Fixiert die Navbar */
-    top: 0;           /* Setzt sie ganz oben im Fenster */
-    left: 0;          /* Setzt sie ganz links im Fenster */
-    width: 100%;      /* Damit die Navbar die gesamte Breite des Fensters abdeckt */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
     background: #f9f9f9;
 }
@@ -72,6 +72,13 @@
 
 @media only screen and (max-width: 900px) {
     
+    .navbar-container-3 {
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+
     .navbar {
         display: flex;
         align-items: center;
