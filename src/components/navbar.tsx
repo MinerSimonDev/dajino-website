@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/navbar.css';
+import Impressum from '../files/Impressum.pdf';
 
 type Props = {}
 
@@ -43,7 +44,7 @@ export default function Navbar(props: Props) {
                     <ul>
                         <li><a href='https://www.instagram.com/dajino_music/' target='_blank' rel='noreferrer'>Instagram</a></li>
                         <li><a href='https://www.tiktok.com/@dajino_music' target='_blank' rel='noreferrer'>Tiktok</a></li>
-                        <li><a href='mailto:bookingsdajino@gmail.com'>Bookings</a></li>
+                        <li><a href={Impressum} download='Impressum & Datenschutz.pdf'>Impressum</a></li>
                     </ul>
                 </div>
             </div>

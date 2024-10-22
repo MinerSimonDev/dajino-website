@@ -1,0 +1,12 @@
+.impressum ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.impressum a {
+    text-decoration: none;
+    color: #000;
+}

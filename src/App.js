@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/navbar.tsx';
 import Dajino from './components/dajino.tsx';
 import Gigs from './components/gigs.tsx';
+import Impressum from './components/impressum.tsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         path2='/images/dajino2.jpg'
         path3='/images/dajino3.jpg'
       />
+      <Impressum/>
     </div>
   );
 }
