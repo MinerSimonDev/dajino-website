@@ -29,7 +29,7 @@ export default function Navbar(props: Props) {
                         <li><a href="#gigs">Upcoming gigs</a></li>
                         <li>
                             <a
-                                href="https://www.instagram.com/shakeclubbing/"
+                                href="https://instagram.com/shakeclubbing/"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -42,8 +42,8 @@ export default function Navbar(props: Props) {
             <div className="navbar-container-3">
                 <div className="navbar-socials">
                     <ul>
-                        <li><a href='https://www.instagram.com/dajino_music/' target='_blank' rel='noreferrer'>Instagram</a></li>
-                        <li><a href='https://www.tiktok.com/@dajino_music' target='_blank' rel='noreferrer'>Tiktok</a></li>
+                        <li><a href='https://instagram.com/dajino_music/' target='_blank' rel='noreferrer'>Instagram</a></li>
+                        <li><a href='https://tiktok.com/@dajino_music' target='_blank' rel='noreferrer'>Tiktok</a></li>
                         <li><a href={Impressum} download='Impressum & Datenschutz.pdf'>Impressum</a></li>
                     </ul>
                 </div>
