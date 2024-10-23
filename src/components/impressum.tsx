@@ -1,10 +1,7 @@
 import React from 'react'
-import Impressum from '../files/Impressum.pdf';
 import '../styles/impressum.css';
 
-type Props = {}
-
-export default function impressum({ }: Props) {
+export default function impressum() {
   return (
     <div className="impressum" id='impressum'>
       <ul>
